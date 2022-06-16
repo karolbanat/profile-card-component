@@ -1,0 +1,17 @@
+.stat {
+	&__number {
+		margin-bottom: 0.6rem;
+        
+		font-size: var(--fz-medium);
+		font-weight: 700;
+
+		color: var(--clr-stat);
+	}
+
+	&__label {
+		font-size: var(--fz-small);
+		letter-spacing: 1px;
+
+		color: var(--clr-stat-label);
+	}
+}

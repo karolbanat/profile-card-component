@@ -1,0 +1,12 @@
+.background {
+	background-color: var(--bg-main);
+	background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+	background-repeat: no-repeat;
+	background-size: 150%, cover;
+	background-position: -85vw -50vh, 45vw 50vh;
+
+	@media (min-width: 48em) {
+		background-size: 75%, 75%;
+		background-position: -25vw -80vh, 47.5vw 50vh;
+	}
+}
