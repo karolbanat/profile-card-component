@@ -1,0 +1,35 @@
+:root {
+	// colors
+	--clr-primary-700: hsl(185, 75%, 39%);
+	--clr-primary-400: hsl(229, 23%, 23%);
+	--clr-primary-300: hsl(227, 10%, 46%);
+
+	--clr-neutral-400: hsl(0, 0%, 59%);
+
+	// font families
+	--ff: 'Kumbh Sans', sans-serif;
+
+	// font sizes
+	--fz-small: 1.2rem;
+	--fz-small-m: 1.4rem;
+	--fz-regular: 1.6rem;
+
+	--spacing-0: 1rem;
+	--spacing-1: 1.6rem;
+	--spacing-2: 2.4rem;
+	--spacing-3: 2.8rem;
+
+	--borr: 1.6rem;
+
+	// stage
+	--bg-main: var(--clr-primary-700);
+
+	--clr-border-avatar: var(--clr-neutral-400);
+
+	--clr-name: var(--clr-primary-400);
+	--clr-age: var(--clr-primary-300);
+	--clr-location: var(--clr-primary-300);
+
+	--clr-stat: var(--clr-primary-400);
+	--clr-stat-descirption: var(--clr-primary-300);
+}
